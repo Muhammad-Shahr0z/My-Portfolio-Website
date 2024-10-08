@@ -267,7 +267,7 @@ nav ul li a:hover{
   font-weight: 700;
   color: blue;
   transition: transform 0.1s ease; 
-  box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.4);
+  /* box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.4); */
 
 }
 .links .downloadButton:hover{
