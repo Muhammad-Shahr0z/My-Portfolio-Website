@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    font-weight:300;
+
+}
+  
+::selection{
+    color: #0a6335;
+}
+
+
+
+
+body {
+    background: linear-gradient(to bottom, #161920 0%, #0a6335 100%, #0a6335 100%);
+    padding: 30px 80px;
+    color: white;
+    height: 100vh;
+   }
+
+
+main{
+    height: calc(100vh - 60px);
+    box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.4);
+    background: #20242d;
+    border-radius: 20px;
+    padding: 20px 100px;
+    max-width: 1550px;
+    margin: auto;
+}
+
+
+.typewriter-text {
+    color: #0a6335;
+    font-weight: 900; 
+    font-size: 1.4rem;
+    
+}
+
+.download-cv{
+    /* type writer class */
+    font-weight: 900;
+}
+
+
+@media(max-width:640px) {
+    body{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+
+
+    }
+
+    main{
+        padding: 0px;
+        margin: 0px;
+        border-radius: 0px;
+        min-height: 100svh;
+        height: 100%
+        
+        ;
+        overflow: auto;
+ 
+    }
+    .typewriter-text {
+        color: #0a6335;
+        font-weight: 800; 
+        font-size: 1.2rem;
+        
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 640px) {
+    body {
+        padding: 0px;
+        margin: 0px;
+        height: 100vh;
+        overflow: auto;
+    }
+
+
+    main{
+        margin: 0px;
+        border-radius: 0px;
+        height: 100%;
+        padding: 0px;
+
+    }
+}
+@media (max-width: 1070px) and (min-width: 1024px) {
+
+
+    main{
+    
+        padding:10px 30px;
+
+    }
+
+
+}
+
+
+
+
+::-webkit-scrollbar {
+    width:6px;
+
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: #413e3e;
+    border-radius: 5px;
+  }
+  
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #0a6335; 
+    border-radius: 10px;
+    border:1px solid #f1f1f1; 
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #077b32; 
+  }
+
+
+
+
+
+/* Yahan me Khud confuse hu yeh kese Work kar raha hai :) */
+@keyframes widthExpand {
+    0% {
+      width: 0%;
+    }
+  }
+  .elements {
+    width: 0%;
+    background-color: #0a6335;
+    transition: width 1s ease-in-out;
+    animation: widthExpand 1s ease-in-out forwards; 
+  }
+
+
+  .image-filter-green{
+    filter: hue-rotate(120deg); }
+  
