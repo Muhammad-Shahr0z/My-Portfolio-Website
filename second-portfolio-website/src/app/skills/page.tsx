@@ -25,7 +25,7 @@ const Skills = () => {
 
       <h2 className="text-4xl font-semibold mb-6 text-center text-[#0a6335]">Skills</h2>
     <div className="mt-4 flex justify-center md:justify-around items-center flex-wrap md:overflow-y-scroll md:h-80 p-5">
-    {cardImages.map((elem)=><Card Card={elem}/>)}
+    {cardImages.map((elem,i)=><Card key={i} Card={elem}/>)}
     </div>
 
     </div>

@@ -1,9 +1,9 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 
 import Typewriter from 'typewriter-effect';
 import { FaFacebook, FaLinkedin, FaGithub, } from 'react-icons/fa';
 import React from 'react';
-import Header from './Header';
 import Image from 'next/image';
 import Profile from "../../../public/shahrozpic.jpeg"
 import Link from 'next/link';
