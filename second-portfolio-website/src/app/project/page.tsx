@@ -4,47 +4,47 @@ import ProjectCardComponent from "@/app/components/projectCard"
 const Project = () => {
   
   const CardsProjects = [
-    {src:"/Project-Images/todoApp.jpg",
+    {src:"/project-images/todoApp.jpg",
     detail:"A TodoList app built with React to efficiently manage tasks using add and delete features",
     h3:"TodoList App",
     link:"https://mini-projects-neon.vercel.app/"},
 
-    {src:"/Project-Images/countdownTimer.jpg",
+    {src:"/project-images/countdownTimer.jpg",
     detail:"Built a Countdown Timer app with Next.js and styled using Tailwind CSS for a responsive design",
     h3:"CountDown Timer",
     link:"https://countdowntimer-six.vercel.app/"},
     
-    {src:"/Project-Images/website-01.jpg",
+    {src:"/project-images/website-01.jpg",
     detail:"Created a static website using HTML, CSS, and JavaScript for a clean and responsive design.",
     h3:"Website 01",
     link:"https://ssengineering.vercel.app/"},
 
-    {src:"/Project-Images/resultApp.jpg",
+    {src:"/project-images/resultApp.jpg",
     detail:"Built a Student Result app with Next.js for efficient result display and management",
     h3:"Student Result",
     link:"https://result-giaic.vercel.app/"},
 
-    {src:"/Project-Images/resumebuilder.jpg",
+    {src:"/project-images/resumebuilder.jpg",
     detail:"A Simple Resume Builder App By Shahroz",
     h3:"Resume Builder App",
     link:"https://milestone05-flame.vercel.app/"},
 
-    {src:"/Project-Images/timerApp-02.jpg",
+    {src:"/project-images/timerApp-02.jpg",
     detail:"Developed a simple Timer app using HTML, CSS, and TypeScript for basic time tracking.",
     h3:"CountDown Timer",
     link:"https://count-down-timer-taupe.vercel.app/"},
 
-    {src:"/Project-Images/resultapp002.jpg",
+    {src:"/project-images/resultapp002.jpg",
     detail:"A Simple Result App For Giaic Q2 Students.",
     h3:"Result App Giaic Q2",
     link:"https://result-app-coral.vercel.app/"},
 
-    {src:"/Project-Images/portfolio.jpg",
+    {src:"/project-images/portfolio.jpg",
     detail:"This Is My First Portfolio Website Builed With HTML,CSS & JavaScript",
     h3:"PortFolio 1st Website",
     link:"https://portfolioweb01.vercel.app/"},
 
-    {src:"/Project-Images/portfolio-02.jpg",
+    {src:"/project-images/portfolio-02.jpg",
     detail:"This Is My 2nd Portfolio Website Builed With NextJS,Tailwind & TypeScript",
     h3:"PortFolio 2nd Website",
     link:"https://portfolioweb01.vercel.app/"},
