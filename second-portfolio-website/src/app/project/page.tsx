@@ -36,7 +36,7 @@ const Project = () => {
     },
     {
         src: "/timerApp-02.jpg",
-        detail: "Developed a simple Timer app using HTML, CSS, and TypeScript for basic time tracking.",
+        detail: "Developed a simple Timer app using HTML, CSS,and TypeScript for basic time tracking.",
         h3: "CountDown Timer",
         link: "https://count-down-timer-taupe.vercel.app/"
     },
