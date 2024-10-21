@@ -63,8 +63,10 @@ const Home = () => {
 
 
 <div className='md:w-[50%] md:flex md:justify-end w-full mx-auto flex justify-center'>
-  <Image src={Profile}alt='profile'height={300} className=' image-filter-green mb-6 mt-8 md:mt-0 rounded-2xl  border-4 p-[2px] opacity-95 shadow-lg 
-  shadow-[#0a6335]  border-[#0a6335] bg-white'/>
+  <div className='shadow-2xl shadow-green-700 h-72 rounded-lg'>
+  <Image src={Profile}alt='profile'height={300} className='image-filter-green mb-6 mt-8 md:mt-0 rounded-2xl p-[2px] opacity-95 
+shadow-[#0a6335]  border-[#0a6335] bg-white'/>
+  </div>
 </div>
 
 
