@@ -201,6 +201,26 @@
   
 }
 
+.image8{
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(
+        to bottom, 
+        rgba(232, 229, 229, 0.8),
+        rgba(15, 31, 207, 0.913) 
+        );
+    background-image: url('/project-Images/portfolio1.JPG');
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.552);
+    
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+  
+}
+
 
 
 
