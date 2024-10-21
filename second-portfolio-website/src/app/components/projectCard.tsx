@@ -18,7 +18,7 @@ const ProjectCardComponent = ({Project}:{Project:ProjectCards}) => {
     <p className="text-[11px] text-white mt-2 text-center mb-2">
     {Project.detail}
     </p>
-    <Link href={Project.link} className="text-sm text-[#0a6335] bg-zinc-300 px-5 rounded-lg hover:bg-[#0a6335] hover:text-white absolute bottom-2">Live</Link>
+    <Link href={Project.link} className="text-sm text-[#0a6335] bg-zinc-300 py-1 px-12 rounded-lg hover:bg-[#0a6335] hover:text-white absolute bottom-2">Live</Link>
   </div>
   )
 }
