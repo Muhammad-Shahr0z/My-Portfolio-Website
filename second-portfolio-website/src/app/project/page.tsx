@@ -5,7 +5,7 @@ const Project = () => {
   
   const CardsProjects = [
     {
-        src: "/todoApp.jpg",
+        src: "/todoApp.JPG",
         detail: "A TodoList app built with React to efficiently manage tasks using add and delete features",
         h3: "TodoList App",
         link: "https://mini-projects-neon.vercel.app/"
