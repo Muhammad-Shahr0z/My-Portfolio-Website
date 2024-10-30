@@ -31,6 +31,7 @@ const Contact = () => {
     setEmail("");
     setmessage("");
   };
+  
 
   const nameFunc = (e: string) => {
     setName(e);
