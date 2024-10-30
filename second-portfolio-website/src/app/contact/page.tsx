@@ -49,7 +49,7 @@ const Contact = () => {
         Contact Me
       </h2>
       <section className="md:flex border-2 border-[#0a6335] md:p-8 rounded-xl shadow-2xl shadow-[#0a6335] p-2">
-        <div className="lg:w-1/2 w-1/2  mx-auto md:mx-0 space-y-6 flex justify-center md:justify-center md:items-center">
+        <div className="md:w-1/2 w-full  mx-auto md:mx-0 space-y-6 flex justify-center md:justify-center md:items-center">
           <div className="md:space-y-8 space-y-3 text-2xl md:2xl mt-8 text-center md:text-start">
             <p>
               <span className="font-bold">Phone:</span>
@@ -104,7 +104,7 @@ const Contact = () => {
               name="name"
               value={name1}
               required
-              className="w-full px-4 py-2 rounded-lg text-black"
+              className="w-full px-4 py-2 rounded-lg text-black border-green-900 border-2"
               placeholder="Enter Your Name"
               onChange={(e) => nameFunc(e.target.value)}
             />
@@ -119,7 +119,7 @@ const Contact = () => {
               name="email"
               value={email}
               required
-              className="w-full px-4 py-2 rounded-lg text-black"
+              className="w-full px-4 py-2 rounded-lg text-black border-green-900 border-2"
               placeholder="Enter Your Email"
               onChange={(e) => emailFunc(e.target.value)}
             />
@@ -133,7 +133,7 @@ const Contact = () => {
               name="message"
               value={message}
               required
-              className="w-full px-4 py-2 rounded-lg text-black resize-none"
+              className="w-full px-4 py-2 rounded-lg text-black resize-none border-green-900 border-2"
               rows={2}
               placeholder="Write Something Here"
               onChange={(e) => messageFunc(e.target.value)}
