@@ -49,7 +49,7 @@ const Contact = () => {
         Contact Me
       </h2>
       <section className="md:flex border-2 border-[#0a6335] md:p-8 rounded-xl shadow-2xl shadow-[#0a6335] p-2">
-        <div className="md:w-1/2 w-full  mx-auto space-y-6 flex justify-center md:justify-start md:items-center">
+        <div className="lg:w-1/2 w-1/2  mx-auto md:mx-0 space-y-6 flex justify-center md:justify-center md:items-center">
           <div className="md:space-y-8 space-y-3 text-2xl md:2xl mt-8 text-center md:text-start">
             <p>
               <span className="font-bold">Phone:</span>
@@ -92,7 +92,7 @@ const Contact = () => {
 
         <form
           onSubmit={(e) => notify(e)}
-          className="lg:w-1/2  space-y-2 text-left"
+          className="lg:w-1/2 space-y-2 text-left md:w-1/2"
         >
           <div>
             <label htmlFor="name" className="block font-bold">
