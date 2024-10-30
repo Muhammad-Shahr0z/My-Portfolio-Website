@@ -25,6 +25,7 @@ body {
     padding: 30px 80px;
     color: white;
     height: 100vh;
+    caret-color: transparent;
    }
 
 
