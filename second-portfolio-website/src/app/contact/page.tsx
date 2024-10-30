@@ -12,7 +12,7 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [message, setmessage] = useState("");
 
-  const notify = (e: any) => {
+  const notify = (e:React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     toast.success(`Hello ${name1}, your email was sent successfully'`, {
@@ -31,7 +31,7 @@ const Contact = () => {
     setEmail("");
     setmessage("");
   };
-  
+
 
   const nameFunc = (e: string) => {
     setName(e);
