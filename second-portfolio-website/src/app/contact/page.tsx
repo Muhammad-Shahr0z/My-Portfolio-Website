@@ -145,7 +145,7 @@ const Contact = () => {
           >
             Submit
           </button>
-          <ToastContainer />
+          <ToastContainer/>
         </form>
       </section>
     </>

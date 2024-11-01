@@ -48,7 +48,7 @@ const Header = () => {
 
  
   
-    <ul className={`${isActive ? 'hidden':'flex'} flex-col  justify-center items-center  text-white text-[1rem] bg-[#0a6335] bg-opacity-55 absolute top-0 w-full py-4 rounded-b-3xl z-10`}>
+    <ul className={`${isActive ? 'hidden':'flex'} flex-col  justify-center items-center  text-white text-[1.5rem] bg-[#0a6335] bg-opacity-55 absolute top-0 w-full py-4 rounded-b-3xl z-10`}>
       <Link href="/" className="hover:bg-[#0a6335] w-full p-1 text-center cursor-pointer md:hover:text-[#0a6335] font-semibold border-b-2 border-transparent md:hover:border-[#0a6335]">Home</Link>
       <Link href="about" className="hover:bg-[#0a6335] w-full p-1 text-center cursor-pointer md:hover:text-[#0a6335] font-semibold border-b-2 border-transparent md:hover:border-[#0a6335]">About</Link>
       <Link href="skills" className="hover:bg-[#0a6335] w-full p-1 text-center cursor-pointer md:hover:text-[#0a6335] font-semibold border-b-2 border-transparent md:hover:border-[#0a6335]">Skills</Link>
