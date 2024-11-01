@@ -65,7 +65,7 @@ const Home = () => {
 <div className='md:w-[50%] md:flex md:justify-end w-full mx-auto flex justify-center'>
 
   <Image src={Profile}alt='profile'height={310} className='image-filter-green mb-6 mt-8 md:mt-0 rounded-2xl p-[2px] opacity-95 
-shadow-[#0a6335]  border-[#0a6335] bg-white md:mr-10  hover:transition-transform hover:duration-500 hover:ease-in-out hover:transform hover:scale-110'/>
+shadow-[#0a6335]  border-[#0a6335] bg-white md:mr-10  hover:transition-transform hover:duration-500 hover:ease-in-out transformScale'/>
 
 </div>
 

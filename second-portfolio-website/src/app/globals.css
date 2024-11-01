@@ -156,4 +156,14 @@ main{
 
   .image-filter-green{
     filter: hue-rotate(120deg); }
+
+
+
+    .transformScale{
+        transition: transform 0.2s ease-out;
+    }
+  
+    .transformScale:hover{
+       transform: scale(1.06);
+    }
   
