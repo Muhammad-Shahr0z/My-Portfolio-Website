@@ -70,6 +70,12 @@ const Project = () => {
         h3: "PortFolio 2nd Website",
         link: "https://portfolioweb02.vercel.app/"
     },
+    {
+        src: "/portfolio",
+        detail: "This Is My 2nd Portfolio Website Built With NextJS,Tailwind & TypeScript",
+        h3: "PortFolio 2nd Website",
+        link: "https://portfolioweb02.vercel.app/"
+    },
 ];
   return (
     <>
