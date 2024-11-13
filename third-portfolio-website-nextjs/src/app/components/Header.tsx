@@ -36,7 +36,7 @@ const Header = () => {
   
     <header>
     <div className="logo">
-      <a href="/index.html"><Image alt='logo' src="/images/logo.png" width={50} height={65}/></a>
+      <a href="/"><Image alt='logo' src="/images/logo.png" width={50} height={65}/></a>
       <a className='hidden1' href="/index.html"><p><strong>Muhammad</strong> <span>Shahroz</span></p></a>
     </div>
     {/* <!-- Navbar Html Code --> */}
